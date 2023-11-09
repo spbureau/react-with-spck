@@ -4,6 +4,8 @@
 
 We continue learning regardless of the hurdles we face.
 
-NB: Spck does not support function components, so I'm using just class components for this series.
+1: Spck does not support function components, so I'm using just class components for this series.
 
 Update: Function Component works now. I'm glad.
+
+2: Seems .jsx files aren't working so I'm just going with .js for now.

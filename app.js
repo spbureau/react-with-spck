@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Footer from './components/Footer'
+import MenuBar from './components/MenuBar.js'
 
 // Class Components here all
 /*
