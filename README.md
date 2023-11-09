@@ -5,3 +5,5 @@
 We continue learning regardless of the hurdles we face.
 
 NB: Spck does not support function components, so I'm using just class components for this series.
+
+Update: Function Component works now. I'm glad.

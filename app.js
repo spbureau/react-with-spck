@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Footer from './components/Footer'
 
 // Class Components here all
 /*
@@ -12,7 +13,7 @@ class TryClass extends React.Component {
     return  (
       <div className="">
         <Title label={this.props.title} />
-          <Paragraph text={this.props.text} />
+          <Paragraph text={this.props.text}&& />
       </div>
     )
   }
@@ -25,6 +26,7 @@ class Main extends React.Component {
         <div className="container">
             <h2>My Spck React App <i className="fa fa-laptop"></i></h2>
             <h2>My Spck React App <i className="fa fa-laptop"></i></h2>
+            <Footer />
         </div>
       );
   }
