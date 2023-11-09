@@ -46,12 +46,15 @@ function Heading() {
 } */
 class Heading extends React.Component {
   render() {
-    return <h1>My Spck React App</h1>;
+    return <div className="container">
+      <h2>My Spck React App <i className="fa fa-laptop"></i></h2>
+      <h2>My Spck React App <i className="fa fa-laptop"></i></h2>
+    </div>;
   }
 }
 
 ReactDOM.render(
   //<Main title="React" text="Caution: do not look into laser with remaining eye."></Main>,
   <Heading />,
-  document.getElementById('react-app')
+  document.getElementById('root')
 );
