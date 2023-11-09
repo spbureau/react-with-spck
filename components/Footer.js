@@ -14,6 +14,7 @@ class Footer extends React.Component {
           <h3>Powered by Simon Peters</h3>
           <h4>www.simonpetersgh.org</h4>
           <Dev />
+          <i className="material-icons">dashboard</i>
         </div>
       );
   }
