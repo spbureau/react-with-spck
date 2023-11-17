@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Footer from './components/Footer'
-import MenuBar from './components/MenuBar.js'
+//import '/index.css';
 
 // Class Components here all
 /*
@@ -24,7 +24,7 @@ class TryClass extends React.Component {
 class Main extends React.Component {
   render() {
     return (
-        <div className="container">
+        <div className="w3-container w3-teal main">
             <h2>My Spck React App <i className="fa fa-laptop"></i></h2>
             <h2>My Spck React App <i className="fa fa-laptop"></i></h2>
             <Footer />
